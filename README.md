@@ -9,3 +9,4 @@ Tecnologias para usar:
 - BOOTSTRAP
 - JAVA SCRIPT
 - IONIC   
+- JQUERY
