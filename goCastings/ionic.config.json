@@ -1,0 +1,7 @@
+{
+  "name": "goCastings",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
