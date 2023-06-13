@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Ubuntu:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Poppins:wght@300;500&family=Ubuntu:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Ubuntu:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Poppins:wght@300;500&family=Ubuntu:wght@300;500;700&display=swap");
+.btn-primary {
+  font-size: 0.85rem;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  padding: 0.7rem 2.5rem;
+  background-color: rgb(250, 77, 17);
+  color: white;
+  border-radius: 4px;
+  border: 2px solid rgb(250, 77, 17);
+}
+.btn-primary:hover {
+  background-color: white;
+  color: rgb(250, 77, 17);
+  box-shadow: 0 0 2px rgb(250, 77, 17);
+}
+
+.btn-icon {
+  background-color: rgb(250, 77, 17);
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid rgb(250, 77, 17);
+}
+.btn-icon i {
+  color: white;
+}
+.btn-icon:hover {
+  background-color: white;
+}
+.btn-icon:hover i {
+  color: rgb(250, 77, 17);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  width: 100vw;
+  align-items: center;
+}
+.nav img {
+  cursor: pointer;
+  width: 13rem;
+}
+.nav .menu ol {
+  margin: 0;
+}
+.nav .menu ol li {
+  font-family: "Poppins", sans-serif;
+  display: inline;
+  margin: 0 1.2rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.nav .menu ol li:hover {
+  opacity: 1;
+  color: rgb(219, 121, 51);
+}
+.nav .acceso {
+  font-family: "Poppins", sans-serif;
+  opacity: 0.7;
+  margin: 0;
+}
+.nav .acceso:hover {
+  opacity: 1;
+  color: rgb(219, 121, 51);
+  cursor: pointer;
+}
+
+.intro {
+  padding: 2rem;
+  margin: auto;
+  max-width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.intro h4 {
+  color: white;
+  font-family: rgb(250, 77, 17);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.intro p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 3rem;
+}
+.intro .botones {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.intro .botones button {
+  margin: 10px;
+}
+
+.nav {
+  border: 1px solid rgb(205, 201, 201);
+  margin: 0;
+  padding: 0 2rem;
+}
+.nav .icons-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .icons-nav i {
+  margin: 0 3rem;
+  font-size: 2rem;
+}
+.nav .icons-nav i:hover {
+  color: rgb(219, 121, 51);
+}
+.nav .icons-nav .desplegable {
+  padding: 0;
+  margin: 0;
+}
+.nav .icons-nav .desplegable button {
+  border: none;
+}
+.nav .icons-nav .desplegable button:focus {
+  color: rgb(219, 121, 51);
+}
+.nav .icons-nav .desplegable ul li:hover {
+  color: white;
+  background-color: rgb(219, 121, 51);
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 2rem;
+}
+.container .intro h4 {
+  color: black;
+}
+.container .intro p {
+  color: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .menu .nav {
+    padding: 0;
+  }
+  .menu .nav i {
+    margin: 0 0.3rem;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .container h4 {
+    width: 100vw;
+  }
+  .container p {
+    width: 100vw;
+    padding: 2rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
